@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   res.end('Hello from Docker!\n');
 });
 
-// Listen on port 300
+// Listen on port 3000
 server.listen(3000, () => {
   // Log a message when the server starts
   console.log('Server running at http://localhost:3000/');
